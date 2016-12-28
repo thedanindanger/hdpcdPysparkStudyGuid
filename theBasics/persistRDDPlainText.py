@@ -4,7 +4,7 @@ from pyspark import * #this is lazy :)
 import time
 
 #define SparkConf info here, but that is for later modules
-conf = SparkConf().setAppName("firstPySparkApp").setMaster("local")
+conf = SparkConf().setAppName("RDDPersistance").setMaster("local")
 
 sc = SparkContext(conf=conf)
 
